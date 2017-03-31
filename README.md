@@ -1,6 +1,6 @@
 # scrollLoad.js
 
-scrollLoad.js是一款jQuery滚动滚动加载图片的插件。
+scrollLoad.js是一款jQuery滚动响应加载图片的插件。
 
 现在很多网页上都是有很多图片资源需要进行请求加载，如果页面图片内容太多，那么网页加载的速度就会变慢，不能达到理想的秒开效果，特此，scrollLoad.js可以延迟加载图片，当浏览器滚动到这个可视区域后，在进行图片的加载。
 
@@ -12,7 +12,7 @@ scrollLoad.js是一款jQuery滚动滚动加载图片的插件。
 ```
 ### HTML结构
 
-使用一个**<div id="warp">**作为目标点，需要加载图片的区域的位置。
+使用一个**`<div id="warp">`**作为目标点，需要加载图片的区域的位置。
 
 ```
 <!--图片容器-->
@@ -36,4 +36,6 @@ $("#warp").scrollLoad()
 |  src  | data-src     | 存放图片真实路径的属性     | string
 | tiem | 300 |切换时间 |number
 
+
+最后 求star
 
